@@ -70,6 +70,3 @@ ani = FuncAnimation(fig, update, frames=frames, interval=100, blit=False)
 # Display the animation
 plt.tight_layout()
 plt.show()
-
-# Uncomment the following line to save the animation
-ani.save('claude_wave.mp4', writer='ffmpeg', fps=15, dpi=200)
